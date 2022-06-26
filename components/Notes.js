@@ -91,7 +91,7 @@ const Notes = ({ navigation, ...props }) => {
   return (
     <View style={[styles.notesContainer]}>
       <View style={styles.headingContainer}>
-        <Text style={styles.heading}>Your Notes...</Text>
+        <Text style={styles.heading}>Notes</Text>
         <View style={{ flexDirection: 'row' }}>
           <TouchableOpacity
             style={[styles.button, { marginLeft: 40 }]}
